@@ -69,7 +69,6 @@ func yourHandlerTs(w http.ResponseWriter, r *http.Request) {
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusNotFound)
 		}
-		saveRedisData()
 		response := buildResponse(message, locationX, locationY)
 		fmt.Fprintf(w, "%v\n", response)
 	}
@@ -141,10 +140,6 @@ func unique(stringSlice []string) []string {
 		}
 	}
 	return list
-}
-
-func saveRedisData() {
-
 }
 
 // this method use an math script to find the location
