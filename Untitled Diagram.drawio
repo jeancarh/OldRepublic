@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T21:21:20.968Z" agent="5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1" version="13.9.3" etag="dj9MYA8xXB-YlGiKVWS1" type="github"><diagram id="mgfzn3phsOALHykfTqVJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-10T22:15:46.601Z" agent="5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1" etag="P4pbVfmGybrSA_mdmyLp" version="13.9.3" type="github">
+  <diagram id="mgfzn3phsOALHykfTqVJ" name="Page-1">
+    <mxGraphModel dx="1671" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-1" value="&lt;div&gt;Se requiere implementar una aplicación web de alta transaccionalidad en la nube, donde los usuarios gestionan sus trámites de documentación con el gobierno.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Diseñe los componentes backend para una solución que va a ser desplegada en la nube de AWS y que cumpla con las siguientes características:&lt;/div&gt;&lt;div&gt;Las funcionalidades más usadas por los usuarios son el inicio de sesión y consulta del estado de sus trámites.&lt;/div&gt;&lt;div&gt;El sitio web recibe altos picos de tráfico a las 7am y a las 2pm (que pueden oscilar típica&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-43" y="10" width="870" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-2" target="_4J6cHevrJo1s5nQSGHG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-3" target="_4J6cHevrJo1s5nQSGHG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-3" target="_4J6cHevrJo1s5nQSGHG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-3" target="_4J6cHevrJo1s5nQSGHG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-3" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-4" target="_4J6cHevrJo1s5nQSGHG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-4" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;" vertex="1" parent="1">
+          <mxGeometry x="290" y="640" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-5" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.desktop_and_app_streaming;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-9" target="_4J6cHevrJo1s5nQSGHG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-9" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="430" y="558" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-12" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-13" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client_vpn;" vertex="1" parent="1">
+          <mxGeometry x="430" y="770" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_4J6cHevrJo1s5nQSGHG-16" target="_4J6cHevrJo1s5nQSGHG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-16" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.t2_instance;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-19" value="Aplicativo de angular&lt;br&gt;Componentes de interceptores&lt;br&gt;Componentes de manejo de inicio de sesion&lt;br&gt;Constantes para requests, reusables por constantes&lt;br&gt;Helpers, local storage" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-20" value="AWS COGNITO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="860" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-22" value="Aws lambda, &lt;br&gt;para manipular la informacion de&lt;br&gt;Cognito, como session token, &lt;br&gt;refresh token, authentication token." style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="379" y="640" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-24" value="Aws dynamo,&lt;br&gt;Almacenamiento de la informacion de&amp;nbsp;&lt;br&gt;Tramites, tales como estado e informacion extra,&amp;nbsp;&lt;br&gt;Por usuario." style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="730" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-25" value="S3 bucket para guardar&lt;br&gt;Archivos que el usuario&amp;nbsp;&lt;br&gt;Sube a la plataforma" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="720" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-26" value="Aws lambda, que recibira requests para &lt;br&gt;traer o colocar informacion en dynamo y s3" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-27" value="Balanceador de carga" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-28" value="Aws api gateway,&lt;br&gt;Manejo de request http get y post para&amp;nbsp;&lt;br&gt;Conectar el front con el back, manejo de api key" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="320" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-30" value="Los tokens traidos de aws, se guardan en local storage,&amp;nbsp;&lt;br&gt;En el front se valida la sesion activa.&lt;br&gt;Para hacer request al apigateway se necesitara apikey&lt;br&gt;y url expuesta sobre aws route53" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_4J6cHevrJo1s5nQSGHG-31" value="Se dividen los tipos de usuario en groups, esos groups seran el medio para&lt;br&gt;Filtrar los tipos de usuario ya sean admin o usuarios normles" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="900" width="420" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
